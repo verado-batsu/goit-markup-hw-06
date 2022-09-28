@@ -436,30 +436,35 @@
 			<p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
 			<form class="modal-form">
 
-				<div role="form-group">
+				<div class="form-group" role="form-group">
 					<label for="userName">Ім'я</label>
 					<input type="text" name="userName" id="userName">
 				</div>
 
-				<div role="form-group">
+				<div class="form-group" role="form-group">
 					<label for="tel">Телефон</label>
 					<input type="tel" name="tel" id="tel">
 				</div>
 
-				<div role="form-group">
+				<div class="form-group" role="form-group">
 					<label for="email">Пошта</label>
 					<input type="email" name="email" id="email">
 				</div>
 
-				<div role="form-group">
+				<div class="form-group" role="form-group">
 					<label for="comment">Коментар</label>
 					<textarea name="comment" id="comment" rows="10"></textarea>
 				</div>
 
-				<div role="form-group">
+				<div class="form-group" role="form-group">
 					<input type="checkbox" name="policy" id="policy">
-					<label for="policy">Погоджуюся з розсилкою та приймаю Умови договору</label>
+					<label for="policy">
+						Погоджуюся з розсилкою та приймаю
+						<a href="#">Умови договору</a>
+					</label>
 				</div>
+
+				<button class="modal-submit" type="submit">Відправити</button>
 
 			</form>
 		</div>
