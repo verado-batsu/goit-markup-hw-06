@@ -449,9 +449,7 @@ body {
 	color: var(--primary-text-color);
 }
 
-.modal-form {
-
-}
+.modal-form {}
 
 .form-field {}
 
@@ -516,7 +514,8 @@ body {
 }
 
 .form-policy-field {
-	display: block;
+	display: flex;
+	align-items: center;
 	margin-bottom: 30px;
 }
 
