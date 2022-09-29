@@ -266,7 +266,8 @@ body {
 
 .footer-email {
 	width: 358px;
-	padding: 15px 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	padding-left: 16px;
 	margin-right: 12px;
 
@@ -393,6 +394,7 @@ body {
 
 	min-height: 581px;
 	min-width: 528px;
+	padding: 40px;
 
 	background-color: var(--primary-bg-color);
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -429,6 +431,83 @@ body {
 
 .modal-close {
 	fill: currentColor;
+}
+
+.modal-title {
+	margin-bottom: 12px;
+
+	text-align: center;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.15;
+	letter-spacing: 0.03em;
+	color: var(--primary-text-color);
+}
+
+.modal-form {
+
+}
+
+.form-field {}
+
+.form-label {
+	display: block;
+	margin-bottom: 4px;
+
+	font-size: 12px;
+	line-height: 1.16;
+	letter-spacing: 0.01em;
+	color: var(--secondary-text-color);
+}
+
+.input-wrapper {
+	position: relative;
+}
+
+.form-input {
+	display: block;
+	width: 100%;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	padding-left: 42px;
+	margin-bottom: 10px;
+
+	border: 1px solid rgba(33, 33, 33, 0.2);
+	border-radius: 4px;
+}
+.form-input:focus {
+	border-color: var(--accent-color);
+}
+
+.input-wrapper:focus-within .form-icon {
+	fill: var(--accent-color);
+}
+
+.form-icon {
+	position: absolute;
+	top: 50%;
+	left: 12px;
+	transform: translateY(-50%);
+
+	transition: fill 250ms var(--timing-function);
+}
+
+.form-comment-field {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.form-textarea {
+	resize: none;
+	display: block;
+	width: 100%;
+	padding: 12px 16px;
+
+	border: 1px solid rgba(33, 33, 33, 0.2);
+	border-radius: 4px;
+}
+.form-textarea:focus {
+	border-color: var(--accent-color);
 }
 
 /* Benefits */
